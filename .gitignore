@@ -1,0 +1,24 @@
+# Virtual environment
+env/
+venv/
+
+# Python clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and Telegram logins
+.env
+*.session
+*.session-journal
+
+# Windows / OneDrive clutter
+desktop.ini
+Thumbs.db
+
+# Large files
+*.zip
+*.pt
+*.bin
+*.npy
+*.parquet
