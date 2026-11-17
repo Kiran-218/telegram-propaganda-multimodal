@@ -17,7 +17,7 @@ ImageHash
 
 # Models: M-CLIP, NLLB translation, LLM baseline
 torch
-transformers
+transformers<5       # multilingual-clip is incompatible with transformers 5.x
 sentencepiece        # needed by the NLLB tokenizer
 multilingual-clip
 open_clip_torch
