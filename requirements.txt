@@ -1,0 +1,26 @@
+# Python 3.12+
+
+# Data collection (Telegram API)
+Telethon
+
+# Core data / analysis
+numpy
+pandas
+scipy
+scikit-learn
+hdbscan
+tqdm
+
+# Images and perceptual hashing
+Pillow
+ImageHash
+
+# Models: M-CLIP, NLLB translation, LLM baseline
+torch
+transformers
+sentencepiece        # needed by the NLLB tokenizer
+multilingual-clip
+open_clip_torch
+
+# Figures
+matplotlib
